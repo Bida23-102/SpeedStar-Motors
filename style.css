@@ -22,6 +22,7 @@
     text-decoration: wavy;
     color:#fff;
     text-transform: uppercase;
+    font-family:"Monaco";
 }
 .navbar ul li::after
    { content: '';
@@ -38,7 +39,7 @@
 h1 {
   text-align: center;
   color:white;
-  font-family:"Sofia", sans-serif;
+  font-family:"Monaco";
   font-style:oblique;
   font-size: 40px;
 }
