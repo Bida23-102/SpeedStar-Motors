@@ -35,5 +35,9 @@
 }
 .navbar ul li:hover::after
     {width: 100%;}
+h1 {
+  text-align: center;
+  color:white;
+}
 
    
