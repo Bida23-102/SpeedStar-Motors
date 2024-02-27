@@ -17,12 +17,12 @@
     display:inline-block;
     margin: 0 20px;
     position: relative;
+    font-family:"Monaco";
 }
 .navbar ul li a{
     text-decoration: wavy;
     color:#fff;
     text-transform: uppercase;
-    font-family:"Monaco";
 }
 .navbar ul li::after
    { content: '';
