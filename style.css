@@ -3,6 +3,7 @@ body {
 }
 
 #myVideo {
+  position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -26,6 +27,7 @@ body {
     justify-content: space-between;
 }
 .logo{
+    position:fixed;
     width: 120px;
     cursor: pointer;
 }
