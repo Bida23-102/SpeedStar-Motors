@@ -10,6 +10,12 @@ body {
   min-height: 100%;
 }
 
+.logo{
+    position:relative;
+    width: 120px;
+    cursor: pointer;
+}
+
 .content {
   position: absolute;
   bottom: 0;
@@ -26,11 +32,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    position:fixed;
-    width: 120px;
-    cursor: pointer;
-}
+
 .navbar ul li{
     list-style: none;
     display:inline-block;
