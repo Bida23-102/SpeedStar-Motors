@@ -44,7 +44,17 @@
             <img src="McLaren-GT.webp" width=450 height=300>
          </ul> 
       </nav> 
-   
+   <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
       <article> 
          <section> 
             <p>One article provides all pros and cons of having such exorbitant cars.</p>
