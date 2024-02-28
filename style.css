@@ -3,7 +3,7 @@ body {
 }
 
 #myVideo {
-  position: absolute;
+  position: sticky;
   right: 0;
   bottom: 0;
   min-width: 100%;
