@@ -1,5 +1,10 @@
 body {
-  overflow: scroll; /* Show scrollbars */
+ height:100%;
+ width:100%;
+}
+
+div{
+  overflow:auto;
 }
 
 #myVideo {
