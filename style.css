@@ -24,7 +24,7 @@ div{
 }
 
 .content {
-  position: static;
+  position: relative;
   bottom: 0;
   color: white;
   width: 100%;
