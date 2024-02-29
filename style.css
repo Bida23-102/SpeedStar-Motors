@@ -10,7 +10,7 @@ div{
 }
 
 #myVideo {
-  position: static;
+  position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%;
