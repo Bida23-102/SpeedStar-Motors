@@ -31,13 +31,13 @@ div{
   padding: 20px;
   
 .navbar {
-  color:white;
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  position: fixed;
+  top:0;
+  width: 100%;
 }
 
 .navbar ul li{
@@ -48,9 +48,12 @@ div{
     font-family:"Monaco";
 }
 .navbar ul li a{
-    text-decoration: wavy;
-    color:#fff;
-    text-transform: uppercase;
+   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  float: left;
+}
 }
 .navbar ul li::after
    { content: '';
