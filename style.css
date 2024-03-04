@@ -28,11 +28,6 @@ header{
  z-index: 100;
 }
 
-img logo{
- width:"280";
- height:"310";
- position: static;
-}
 .content {
   position: relative;
   bottom: 0;
