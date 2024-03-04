@@ -75,6 +75,15 @@ img logo{
 }
 .navbar ul li:hover::after
     {width: 100%;}
+
+ banner{
+   position: sticky;
+   left:0;
+   width:100%;
+   padding:20px 100px;
+   text-align:center;
+
+ }
 h1 {
   text-align: center;
   color:white;
