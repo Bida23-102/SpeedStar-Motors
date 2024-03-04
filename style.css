@@ -29,7 +29,8 @@ header{
 }
 
 img logo{
- 
+ width:"280";
+ height:"310";
 }
 .content {
   position: relative;
