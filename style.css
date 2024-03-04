@@ -51,6 +51,7 @@ div{
  text-decoration: wavy;
     color:#fff;
     text-transform: uppercase;
+    position: fixed;
 }
  
 .navbar ul li::after
