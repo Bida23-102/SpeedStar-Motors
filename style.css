@@ -71,18 +71,18 @@
     {width: 100%;}
 
 .banner h1 {
-  text-align: center;
-  color:white;
-  font-family:"Monaco";
-  font-style:oblique;
-  font-size: 40px;
-  position: fixed;
+  position: relative;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  padding: 20px;
 }
 .banner p {
-  color:white;
-  font-family:Georgia;
-  font-style:oblique;
-  position: fixed;
+   position: relative;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  padding: 20px;
 }
 
 /* Handle on hover */
