@@ -78,11 +78,13 @@
   font-family:"Monaco";
   font-style:oblique;
   font-size: 40px;
+  position: relative;
 }
-.p {
+.banner p {
   color:white;
   font-family:Georgia;
   font-style:oblique;
+  position: relative;
 }
 
 /* Handle on hover */
