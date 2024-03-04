@@ -21,12 +21,6 @@
  z-index: 100;
 }
 
-header logo{
- "width:"200";
- height:"260";
- position: static;
-}
-
 .content {
   position: relative;
   bottom: 0;
@@ -42,12 +36,13 @@ header logo{
  margin-left:40px;
 }
 
-.navbar ul li{
-    list-style: none;
-    display:inline-block;
-    margin: 0 20px;
-    position: relative;
-    font-family:"Monaco";
+.navbar a: :before {
+ content: '' ;
+ position: absolute;
+ top:0;
+ bottom:0;
+ width:100%;
+ height:100%;
 }
 .navbar ul li a{
  text-decoration: wavy;
