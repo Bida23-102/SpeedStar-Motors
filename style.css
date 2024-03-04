@@ -31,7 +31,7 @@ header{
 img logo{
  width:"280";
  height:"310";
- position: sticky;
+ position: static;
 }
 .content {
   position: relative;
