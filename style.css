@@ -1,9 +1,9 @@
-body {
+.body {
  height:100%;
  width:100%;
 }
 
-div{
+.div{
   overflow:auto;
   overflow-y:auto;
   overflow-x:auto;
@@ -16,7 +16,7 @@ div{
   min-width: 100%;
   min-height: 100%;
 }
-header{
+.header{
  position: fixed;
  top:0;
  left:0;
@@ -72,22 +72,14 @@ header{
 .navbar ul li:hover::after
     {width: 100%;}
 
- banner{
-   position: sticky;
-   left:0;
-   width:100%;
-   padding:20px 100px;
-   text-align:center;
-
- }
-h1 {
+.banner h1 {
   text-align: center;
   color:white;
   font-family:"Monaco";
   font-style:oblique;
   font-size: 40px;
 }
-p {
+.p {
   color:white;
   font-family:Georgia;
   font-style:oblique;
