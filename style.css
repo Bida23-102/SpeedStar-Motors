@@ -18,9 +18,11 @@ div{
 }
 
 .logo{
-    position: fixed;
+    position: relative;
     width: 120px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content {
